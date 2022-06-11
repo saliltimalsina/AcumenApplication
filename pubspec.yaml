@@ -37,6 +37,8 @@ dependencies:
   dio: ^4.0.6
   font_awesome_flutter: ^10.1.0
 
+  motion_toast: ^2.1.9
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
