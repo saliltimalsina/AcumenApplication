@@ -3,7 +3,6 @@ import 'package:my_app/model/Books.dart';
 import 'package:my_app/screens/detail/components/add_cart.dart';
 import 'package:my_app/screens/detail/components/Books_info.dart';
 import 'package:my_app/screens/detail/components/detail_appbar.dart';
-import 'package:my_app/screens/detail/components/size_list.dart';
 
 class DetailPage extends StatelessWidget {
   const DetailPage({Key? key, required this.Books}) : super(key: key);
