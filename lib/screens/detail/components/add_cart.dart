@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:my_app/model/clothes.dart';
+import 'package:my_app/model/Books.dart';
 
 class AddCart extends StatelessWidget {
-  const AddCart({Key? key, required this.clothes}) : super(key: key);
-  final Clothes clothes;
+  const AddCart({Key? key, required this.Books}) : super(key: key);
+  final Books Books;
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -21,7 +21,7 @@ class AddCart extends StatelessWidget {
                 ),
               ),
               Text(
-                clothes.price,
+                Books.price,
                 style: TextStyle(
                   height: 1.5,
                   fontSize: 20,
