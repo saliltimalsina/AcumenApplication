@@ -2,7 +2,6 @@ import 'package:carousel_slider/carousel_controller.dart';
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 import 'package:my_app/model/products.dart';
-import 'package:my_app/screens/detail/components/colorpicker.dart';
 import 'package:my_app/screens/product_desc/components/increase_item.dart';
 
 class ProductDescAppBar extends StatefulWidget {

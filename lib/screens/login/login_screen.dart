@@ -5,7 +5,6 @@ import 'package:my_app/pallate.dart';
 import 'package:my_app/screens/login/components/body.dart';
 import 'package:my_app/components/components.dart';
 import 'package:my_app/screens/login/components/login_form.dart';
-import 'package:my_app/screens/login/forgotpassword.dart';
 import 'package:my_app/screens/signup/signup_screen.dart';
 
 class LoginScreen extends StatelessWidget {
@@ -56,3 +55,4 @@ class LoginScreen extends StatelessWidget {
     );
   }
 }
+// gg
