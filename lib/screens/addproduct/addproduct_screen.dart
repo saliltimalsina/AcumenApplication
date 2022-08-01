@@ -5,7 +5,6 @@ import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
 import 'package:my_app/components/appbar.dart';
 import 'package:my_app/http/httpproducts.dart';
-import 'package:my_app/model/clothes.dart';
 import 'package:my_app/model/products.dart';
 import 'package:my_app/pallate.dart';
 import 'package:my_app/screens/home/home_screen.dart';

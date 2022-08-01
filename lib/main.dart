@@ -12,6 +12,7 @@ import 'package:my_app/screens/addproduct/addproduct_screen.dart';
 import 'package:my_app/screens/cart/cart_screen.dart';
 import 'package:my_app/screens/cart_detail.dart';
 import 'package:my_app/screens/home/home_screen.dart';
+import 'package:my_app/screens/login/forgotpassword.dart';
 import 'package:my_app/screens/login/login_screen.dart';
 import 'package:my_app/screens/orders/orders_screen.dart';
 import 'package:my_app/screens/product/product_list_screen.dart';
@@ -29,17 +30,16 @@ import 'wearos/wearoslogin.dart';
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   AwesomeNotifications().initialize(
-      "resource://drawable/launcer", // icon for your app notification
+      "resource://drawable/launcher", // icon for your app notification
       [
         NotificationChannel(
             channelGroupKey: 'basic_channel_group',
             channelKey: 'my_app',
-            channelName: 'myap',
+            channelName: 'my_jkl;app',
             channelDescription: "ACUMEN Notification",
             defaultColor: const Color(0xFF105F49),
-            importance: NotificationImportance.Max,
+            importance: NotificationImportance.Default,
             ledColor: Colors.white,
-            playSound: true,
             enableLights: true,
             enableVibration: true)
       ]);
@@ -71,8 +71,8 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      initialRoute: SplashScreen.routeName,
-      // initialRoute: "/wearos",
+      // initialRoute: SplashScreen.routeName,
+      initialRoute: "/wearos",
 
       routes: {
         SplashScreen.routeName: (context) => const SplashScreen(),
