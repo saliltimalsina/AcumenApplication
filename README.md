@@ -15,6 +15,7 @@ Classes or components called repositories are used to store the functionality ne
 Shared preferences is a Flutter plugin that allows you to save data in a key-value format so you can easily retrieve it later. Behind the scenes, it uses the aptly named Shared Preferences on Android. The user's token is stored in my application acumen through shared preferences so that the user doesn't have to log in each time the app is refreshed or closed. However, the token gets deleted when you log out of the application.
 ## Appendix
 Screenshots of my application Acumen is displayed below:
+<img src="./screenshots/!1" alt="Alt text" title="Splash Screen">
 
 
 ## Conclusion
